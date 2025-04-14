@@ -10,7 +10,7 @@ from langchain.tools import Tool
 
 # 🔹 Load API Key
 load_dotenv()
-API_KEY = "AIzaSyCDkHAz83d5AbSaj-Rf9ApLTcvGPr-xJkM"
+API_KEY = "OPEN_API_KEY"
 if not API_KEY:
     raise ValueError("❌ Gemini API key not found. Set GEMINI_API_KEY in .env")
 
